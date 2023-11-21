@@ -7,12 +7,32 @@
   </head>
   <body>
     <script>
-      let acc = { 26: 2, 1: 3, 20: 10 };
-      let bcc = {
-        name: "Suyash",
-        age: 27,
-      };
-      console.log(bcc["name"]);
+            let acc = { 26: 2, 1: 3, 20: 10 };
+            let bcc = {
+              name: "Suyash",
+              age: 27,
+            };
+            console.log(bcc["name"]);
+
+            /**
+             * Dot notation:
+
+      MDN Reference: Property accessors - dot notation
+      Quote from the documentation:
+      "The dot notation is typically used when you know the name of the property you're trying to access ahead of time."
+
+      Square bracket notation:
+      MDN Reference: Property accessors - square bracket notation
+      Quote from the documentation:
+      "The object[property] syntax is the most common way to access a property. It is mostly used if the property
+      name is dynamic or is not a valid identifier."
+
+
+      In the case of numeric keys or keys that are not valid identifiers, you would need to use square
+      bracket notation, as indicated in the second reference. The first reference, about dot notation,
+      highlights that it is typically used when you know the property name ahead of time and when the
+      property name is a valid identifier.
+             * /
     </script>
   </body>
 </html>
